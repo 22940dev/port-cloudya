@@ -22,18 +22,16 @@ const Card = (props) => {
   }
 
   return (
-    <div
-      className='card'
-      style={cardStyle}>
+    <div className='card' style={cardStyle}>
       <div className='card_overlay'>
         <div className='icon_box'>
-          <Link href={props.viewLink} target="_blank">
+          <Link href={props.viewLink} target='_blank'>
             <IconButton>
               <VisibilityIcon style={iconStyle} />
             </IconButton>
           </Link>
 
-          <Link href={props.gitLink} target="_blank">
+          <Link href={props.gitLink} target='_blank'>
             <IconButton>
               <GitHubIcon style={iconStyle} />
             </IconButton>
@@ -41,10 +39,12 @@ const Card = (props) => {
         </div>
 
         <div className='infoContainer'>
-          <h2 className='project_name'>
-            {/* {info ? props.about : props.name} */}
-            {props.name ? props.name : null}
-          </h2>
+          <Link href={props.viewLink} target='_blank'>
+            <h2 className='project_name'>
+              {/* {info ? props.about : props.name} */}
+              {props.name ? props.name : null}
+            </h2>
+          </Link>
 
           {props.about ? <p className='project_about'>{props.about}</p> : null}
         </div>

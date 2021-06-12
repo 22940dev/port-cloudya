@@ -32,7 +32,7 @@ const Icon = (props) => {
     {
       iconName: 'facebook',
       icon: <FaFacebookF className={iconStyleClass} />,
-      link: 'https://www.facebook.com/',
+      link: 'https://www.facebook.com/profile.php?id=100007927186805',
     },
   ]
   return (
@@ -40,6 +40,7 @@ const Icon = (props) => {
       {iconsArray.map((el) => (
         <Link
           href={`${el.link}`}
+          target='_blank'
           className={el.iconName + ' ' + iconBoxClasses.join(' ')}>
           {el.icon}
           <div className='toolTip'>

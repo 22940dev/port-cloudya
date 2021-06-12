@@ -38,3 +38,7 @@ code {
 .App{
   overflow-x: hidden;
 }
+
+a:hover{
+text-decoration: none!important;
+}
