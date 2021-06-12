@@ -12,7 +12,7 @@ const Form = () => {
     try {
       e.preventDefault()
       setShowLoader(true)
-      const result = await emailjs.sendForm(
+       await emailjs.sendForm(
         'service_0zh9026',
         'template_jwxmzt9',
         e.target,
