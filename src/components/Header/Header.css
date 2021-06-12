@@ -52,12 +52,22 @@
   margin-top: 2rem;
 }
 
-.text__box--para span{font-weight: 900; margin-left: -2px; }
-.text__box--para span:nth-child(1){color: #12d800;}
-.text__box--para span:nth-child(2){color: #8a8a8a;}
-.text__box--para span:nth-child(3){color: #0dc4f1;}
-.text__box--para span:nth-child(4){color: #059500;}
-
+.text__box--para span {
+  font-weight: 900;
+  margin-left: -2px;
+}
+.text__box--para span:nth-child(1) {
+  color: #12d800;
+}
+.text__box--para span:nth-child(2) {
+  color: #8a8a8a;
+}
+.text__box--para span:nth-child(3) {
+  color: #0dc4f1;
+}
+.text__box--para span:nth-child(4) {
+  color: #059500;
+}
 
 .text__box--button {
   margin-top: 3rem;

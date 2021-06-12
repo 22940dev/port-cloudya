@@ -27,13 +27,13 @@ const Card = (props) => {
       style={cardStyle}>
       <div className='card_overlay'>
         <div className='icon_box'>
-          <Link href={props.viewLink}>
+          <Link href={props.viewLink} target="_blank">
             <IconButton>
               <VisibilityIcon style={iconStyle} />
             </IconButton>
           </Link>
 
-          <Link href={props.gitLink}>
+          <Link href={props.gitLink} target="_blank">
             <IconButton>
               <GitHubIcon style={iconStyle} />
             </IconButton>
