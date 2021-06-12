@@ -130,6 +130,11 @@
   .header {
     grid-template-rows: 8rem 35vh 38vh;
   }
+  .text__box--button {
+    font-size: 1.8rem;
+    width: 27rem;
+    height: 7rem;
+  }
 
   .text__box :not(:first-child) {
     margin-top: 2.5rem;
