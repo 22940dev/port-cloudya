@@ -23,7 +23,7 @@ const Header = () => {
         className='text__box'>
         <h1 className='text__box--greeting'>Hello;</h1>
         <h3 className='text__box--para'>
-          I'm Mohd. Yahya, <span>M</span> <span>E</span> <span>R</span>{' '}
+          I'm Yahya, <span>M</span> <span>E</span> <span>R</span>{' '}
           <span>N</span> stack developer looking for an Internship
         </h3>
         <a href={resume} download><button  className='text__box--button'>download CV</button></a>
