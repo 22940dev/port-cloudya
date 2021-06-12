@@ -144,9 +144,13 @@ a{
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
     .icon--small{
-        width: 5rem;
-        padding: 1.4rem;
+        width: 5.5rem;
+        padding: 1.3rem;
+    }
+
+    .icon_container a:not(:last-child) {
+        margin-right: 3rem;
     }
 }
