@@ -143,3 +143,10 @@ a{
     margin-right: 4rem;
 }
 }
+
+@media only screen and (max-width: 900px) {
+    .icon--small{
+        width: 5rem;
+        padding: 1.4rem;
+    }
+}
