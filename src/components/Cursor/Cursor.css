@@ -1,0 +1,65 @@
+.cursor{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    pointer-events: none;
+    position: fixed;
+    mix-blend-mode: normal;
+    opacity: 1;
+    transition: all 150ms ease;
+    transition-property: opacity;
+    border-radius: 50%;
+
+    /* mix-blend-mode: difference; */
+}
+
+
+.cursor--hidden{
+    opacity: 0;
+}
+
+.cursor_iconBox{
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    border-radius: 50%;
+    top: 20%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    animation: rotation 10s ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+
+.cursor_icon{
+    --rotation:0;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 1.2rem;
+}
+
+ .icon1{--rotation:60deg;}
+ .icon2{--rotation:120deg; }
+ .icon3{--rotation:180deg;}
+ .icon4{--rotation:240deg;}
+ .icon5{--rotation:300deg;}
+ .icon6{--rotation:360deg;}
+
+
+
+ 
+@keyframes rotation{
+    0%{
+      transform: rotate(0deg);
+    }
+  
+    100%{
+      transform: rotate(720deg);
+    }
+   }

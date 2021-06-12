@@ -1,0 +1,30 @@
+.svg {
+  height: 95%;
+  width: 100%;
+  position: absolute;
+  right: 6rem;
+  bottom: 0;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+path {
+  backface-visibility: hidden;
+}
+g {
+  backface-visibility: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .svg {
+    /* height: 30rem; */
+    right: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .svg {
+    height: auto;
+    right: 0;
+    padding: 0 3rem 0 4rem;
+  }
+}

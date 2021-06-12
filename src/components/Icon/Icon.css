@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+.icon_container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0rem;
+}
+
+.icon_container a:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.icon--small{
+    width: 5rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+
+
+.icon{
+    border-radius: 100%;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0.68, -0.55, .0265, 1.55);
+}
+.icon_container  a:last-child{
+    margin-right: 0;
+}
+
+.icon .toolTip{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s cubic-bezier(0.68, -0.55, .0265, 1.55);
+}
+
+.icon .toolTip::before{
+    position: absolute;
+    content: " ";
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all .3s cubic-bezier(.68, -.55, .265, 1.55);
+}
+
+.icon:hover .toolTip{
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.icon:hover, 
+.icon:hover .toolTip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,.1);
+}
+
+.largeIconStyle{
+    font-size: 3rem!important;
+    background: none!important;
+    color: rgb(85, 85, 85);
+}
+
+.smallIconStyle{
+    font-size: 2.3rem!important;
+    background: none!important;
+    color: rgb(85, 85, 85);
+}
+
+.instagram:hover,
+.instagram:hover .toolTip,
+.instagram:hover .toolTip::before,
+.instagram:hover .largeIconStyle,
+.instagram:hover .smallIconStyle{
+    background-color: #e1306c;
+    color: #ffff;
+}
+
+.github:hover,
+.github:hover .toolTip,
+.github:hover .toolTip::before,
+.github:hover .largeIconStyle,
+.github:hover .smallIconStyle
+{
+    background-color: #333;
+    color: #ffff;
+}
+
+.facebook:hover,
+.facebook:hover .toolTip,
+.facebook:hover .toolTip::before,
+.facebook:hover .largeIconStyle,
+.facebook:hover .smallIconStyle{
+    background-color: #0088cc;
+    color: #ffff;
+}
+
+.linkedin:hover,
+.linkedin:hover .toolTip,
+.linkedin:hover .toolTip::before,
+.linkedin:hover .largeIconStyle,
+.linkedin:hover .smallIconStyle
+{
+    background-color: #0a66c2;
+    color: #ffff;
+}
+
+a{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+.icon--small{
+    width: 7rem;
+    padding: 2rem;
+}
+.smallIconStyle{
+    font-size: 3rem!important;
+}
+.icon_container a:not(:last-child) {
+    margin-right: 4rem;
+}
+}

@@ -1,0 +1,21 @@
+.cards_container{
+    padding: 1.5rem;
+    height: min-content;
+    background-color: black;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10,5vw);
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+.cards_container{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(18,8vw);
+    }
+   }

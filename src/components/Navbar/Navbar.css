@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.navbar {
+  position: fixed;
+  right: 30px;
+  top: 10px;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+
+.navItem__circle {
+  margin-top: 3px;
+  margin-left: 10px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #e29e21;
+  transition: all 0.2s ease;
+}
+
+.navItem__text {
+  left: 0;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e29e21;
+  font-family: 'Lato', sans-serif;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.navItem:hover h3,
+.navItem.active h3 {
+  opacity: 1;
+}
+
+.navItem:hover .navItem__circle,
+.navItem.active .navItem__circle {
+  background-color: #e29e21;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    right: 20px;
+  }
+  .navItem__text {
+    font-size: 12px;
+  }
+}
