@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './Header.css'
-import Icon from '../Icon/Icon'
 import TreeSvg from '../TreeSvg/TreeSvg'
 import Navbar from '../Navbar/Navbar'
 import resume from '../../assets/Resume.pdf'

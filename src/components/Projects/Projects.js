@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Card from './Card/Card'
 import './Projects.css'
 
-import Cursor from '../Cursor/Cursor'
 import { desktopCardList, mobileCardList } from './projectsListIndex'
 
 const Projects = (props) => {
