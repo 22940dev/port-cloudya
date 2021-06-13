@@ -3,7 +3,8 @@ import React from 'react'
 import './Icon.css'
 
 import { FiGithub } from 'react-icons/fi'
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa'
+import {ImWhatsapp} from 'react-icons/im'
+import { FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 
 import { Link } from '@material-ui/core'
 
@@ -30,9 +31,9 @@ const Icon = (props) => {
       link: 'https://github.com/yahya-cloud',
     },
     {
-      iconName: 'facebook',
-      icon: <FaFacebookF className={iconStyleClass} />,
-      link: 'https://www.facebook.com/profile.php?id=100007927186805',
+      iconName: 'whatsapp',
+      icon: <ImWhatsapp className={iconStyleClass} />,
+      link: 'https://wa.me/+919810896720',
     },
   ]
   return (

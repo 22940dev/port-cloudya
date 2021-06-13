@@ -280,7 +280,8 @@ export const mobileCardList = [
     info: '',
     isSmall: true,
   },
-  {  ...desktopCardList[7],
+  {
+    ...desktopCardList[7],
     gridRow: '7 / 9',
     gridColumn: '5 / 7',
     info: '',
@@ -299,7 +300,6 @@ export const mobileCardList = [
     info: '',
     gridColumn: '5 / 7',
     isSmall: true,
-    
   },
   {
     ...desktopCardList[4],
@@ -307,7 +307,7 @@ export const mobileCardList = [
     gridColumn: '5 / 7',
     info: '',
     isSmall: true,
-    },
+  },
 
   {
     ...desktopCardList[8],
@@ -315,14 +315,14 @@ export const mobileCardList = [
     gridColumn: '1 / 3',
     info: '',
     isSmall: true,
-    },
+  },
   {
     ...desktopCardList[5],
     gridRow: '13 / 15',
     gridColumn: '3 / 5',
     info: '',
     isSmall: true,
-   },
+  },
   {
     ...desktopCardList[11],
     gridRow: '13 / 15',
@@ -344,33 +344,33 @@ export const mobileCardList = [
     gridColumn: '3 / 5',
     info: '',
     isSmall: true,
- },
+  },
   {
     ...desktopCardList[14],
     gridRow: '15/ 17',
     gridColumn: '5 / 7',
     info: '',
     isSmall: true,
-    },
+  },
   {
     ...desktopCardList[13],
     gridRow: '17 / 19',
     gridColumn: '1 / 3',
     info: '',
     isSmall: true,
- },
+  },
   {
     ...desktopCardList[16],
     gridRow: '17 / 19',
     gridColumn: '3 / 5',
     info: '',
     isSmall: true,
- },
+  },
   {
     ...desktopCardList[17],
     gridRow: '17 / 19',
     gridColumn: '5 / 7',
     info: '',
     isSmall: true,
-    },
+  },
 ]
