@@ -128,8 +128,8 @@ export const desktopCardList = [
     isSmall: true,
     name: 'Portfolio',
     info: 'Tech. Stack:- React.js',
-    viewLink: '',
-    gitLink: '',
+    viewLink: 'https://www.mohammadyahya.in/',
+    gitLink: 'https://github.com/yahya-cloud/portfolio',
     imgUrl: { portfolio },
   },
   {
@@ -248,7 +248,7 @@ export const mobileCardList = [
     ...desktopCardList[0],
     gridRow: '1 / 5',
     gridColumn: '1 / 5',
-    info: 'Technology stack used:- React.js, Node.js, Express, Redux, MongoDb, JWT, Material UI, Geolocation api, MapboxGL, Chart.js.',
+    info: 'Technology stack used:- React.js, Node.js, Express, Redux, MongoDb,  MapboxGL',
     isSmall: true,
   },
   {
@@ -268,7 +268,7 @@ export const mobileCardList = [
 
   {
     ...desktopCardList[1],
-    info: 'Technology stack:- React.js, Express, Node.js, Mongodb, Redux, JWT, React-Bootstrap, PayPal api. deployed on Heroku ',
+    info: 'Technology stack:- React.js, Express, Node.js, Mongodb, Redux, JWT, React-Bootstrap',
     gridRow: ' 5 / 9',
     gridColumn: '1 / 5',
     isSmall: true,
@@ -288,7 +288,7 @@ export const mobileCardList = [
   },
   {
     ...desktopCardList[18],
-    info: 'Technology stack:- React.js, Express, Node.js, Mongodb, Redux, JWT, Material UI, PayPal api, deployed on heroku ',
+    info: 'Technology stack:- React.js, Express, Node.js, Mongodb, Redux, JWT',
     gridRow: '9 / 13',
     gridColumn: '1 / 5',
     isSmall: true,
