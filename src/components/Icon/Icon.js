@@ -23,7 +23,7 @@ const Icon = (props) => {
     {
       iconName: 'linkedin',
       icon: <FaLinkedinIn className={iconStyleClass} />,
-      link: 'https://www.linkedin.com/in/mohd-yahya-194850200',
+      link: 'https://www.linkedin.com/in/mohd-yahya-869a18214',
     },
     {
       iconName: 'github',

@@ -30,9 +30,9 @@ const Footer = (props) => {
             <p className='about_info'>
               I'm Mohammad yahya, A second year Engineering student, while
               pursuing Engineering i made dozens of projects using React.js,
-              Node.js, Express, mongoDb, mongoose, jwt and multiple javascript
+              Node.js, Express, MongoDb, Mongoose, Jwt and multiple javascript
               libraries. I use various tools for designing and styling websites
-              such as Fimga, Adobe photoshop, Materialui, Bootstrap, SCSS. I
+              such as Figma, Adobe Photoshop, Materialui, Bootstrap, SCSS. I
               believe programming is not about getting a good pay job, it's
               about transforming your ideas into reality and that's what set's
               me apart from others <br></br>
@@ -58,7 +58,7 @@ const Footer = (props) => {
       <Form />
 
       <p className='copyright'>
-        &#169;Designed and Develpoed by Mohammad Yahya
+        &#169;Designed and Developed by Mohammad Yahya
       </p>
     </div>
   )
