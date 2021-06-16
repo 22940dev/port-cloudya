@@ -27,7 +27,7 @@ export const desktopCardList = [
     isSmall: false,
     name: 'Mollify Web-App',
     info: 'A web-app where patients can find psychiatrist and request session both doctor and patient can navigate each other from there present location. It have different UI for patients and doctors. Technology stack used:- React.js, Node.js, Express, Redux, MongoDb, JWT, Material UI, Geolocation api, MapboxGL, Chart.js,  Designed using Figma, deployed on Heroku.',
-    viewLink: 'https://focused-brattain-9df5b1.netlify.app/',
+    viewLink: 'https://mollify-webapp.herokuapp.com/',
     gitLink: 'https://github.com/yahya-cloud/mollify-webapp',
     imgUrl: { MollifyWebApp },
   },
